@@ -1,0 +1,111 @@
+* {
+    text-align: center;
+    font-family:sans-serif;
+}
+
+form {
+    display: inline-block;
+    border: 2px solid lightgrey;
+    border-width: 1px;
+    border-radius: 4px;
+    margin-top: 150px;
+    padding: 20px;
+    padding-top: 0px;
+    text-align: left;
+}
+
+h1 {
+    margin: 2px;
+    font-weight: normal;
+    text-align: left;
+}
+
+input {
+    width: 98%;
+    height: 35px;
+    margin: 10px;
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: left;
+}
+
+input::placeholder{
+    font-size: larger;
+}
+
+#forgot {
+    float: right;
+}
+
+#continue {
+    background-color: #ffc23d;
+    width: 450px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: rgb(67, 117, 255);
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+#Create {
+    width: 465px;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+button {
+    border:solid grey;
+    text-align: center;
+    padding: 10px;
+    border-width: 1px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+#help::before {
+    content: '▸';
+    margin-left: 15px;
+}
+
+.support {
+    font-size: small;
+}
+
+#new {
+    color: lightslategray
+}
+
+.new::before {
+    content:" ";
+    display: block;
+    height: 1px;
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    background: lightslategrey;
+}
+
+.new::after {
+    content:" ";
+    display: block;
+    height: 1px;
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    background: lightslategrey;
+}
+
+.new {
+    position: relative;
+    max-width: 500px;
+    margin: 25px auto;
+    text-align: center;
+    color: lightslategray;
+}
